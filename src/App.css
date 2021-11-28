@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Mate+SC&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.not-found{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+body {
+  background-image: linear-gradient(
+    45deg,
+    rgba(0, 140, 255, 0.96),
+    rgba(0, 255, 234, 0.74)
+  );
+  height: 100vh;
+  font-family: "Mate SC", serif;
+}
+
+.title {
+  color: rgba(112, 3, 214, 0.822);
+  height: 100px;
+  padding: 20px;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+  border: 3px solid rgb(7, 232, 240);
+  max-width: 70%;
+  width: 29rem;
+}
+
+.user-div {
+  padding: 7px;
+}
+
+label {
+  font-size: 19px;
+  color: blue;
+  font-weight: 300;
+}
+
+input {
+  padding: 1.3em .7em;
+  margin: 10px;
+  outline: none;
+  border: 2px solid rgb(2, 245, 233);
+  border-radius: 5px;
+  height: 25px;
+  transition: 0.5s ease-out;
+}
+
+.checkbox {
+  width: 15px;
+  height: 15px;
+}
+
+.email-div {
+  padding: 8px;
+}
+
+.password-div {
+  padding: 7px;
+}
+
+.policy-div {
+  padding: 7px;
+}
+
+.have-account-div {
+  padding: 7px;
+}
+
+.btn {
+  margin-bottom: .4em;
+  padding: 5px;
+  width: 120px;
+  font-size: 19px;
+  height: 43px;
+  color: blue;
+  border-radius: 10px;
+  border: 2px solid rgb(2, 245, 233);
+  cursor: pointer;
+  transition: 0.5s ease-out;
+  background-color: rgba(2, 245, 233, 0.521);
+  font-family: "Mate SC", serif;
+}
+
+.btn:hover {
+  background-color: rgba(2, 245, 233, 0.822);
+}
+
+a {
+  cursor: pointer;
+  color: rgba(112, 3, 214, 0.822);
+  transition: 0.5s ease-out;
+}
+
+a:hover {
+  color: rgba(132, 6, 182, 0.822);
+}
+
